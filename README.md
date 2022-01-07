@@ -10,3 +10,6 @@ To enable this get the contents of the bashrc in the repository and append it to
 
 ## How to use it
 just ssh as normally to your servers, the sessions are logged to  ~/.ssh/session_logs/
+
+## limitations
+first parameter must be the host that you want to ssh

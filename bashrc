@@ -13,7 +13,6 @@ tssh()
     fi
 
     mkdir -p ~/.ssh/session_logs/
-    cd ~/.ssh/session_logs/ && gzip *.session
     ssh "$@" 2>&1 | tee ~/.ssh/session_logs/"$1_$(date +%m_%d_%Y_%H_%M_%S)".session
     
 }

@@ -9,7 +9,7 @@ Well! there is an easy solution, you can create a function withing .bashrc to au
 To enable this get the contents of the bashrc in the repository and append it to the end of yours .bashrc file, then enter source ~/.bashrc to reload your config
 
 ## How to use it
-just ssh as normally to your servers, the sessions are logged to  ~/.ssh/session_logs/
+dont use ssh, instead use tssh (the alias) as you would use ssh, the sessions are logged to  ~/.ssh/session_logs/
 
 ## limitations
 first parameter must be the host that you want to ssh
